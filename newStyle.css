@@ -1,0 +1,40 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+}
+
+.left_header{
+    font-size: large;
+    font-weight: bolder;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.nav a{
+    color: black;
+    margin: 4px 20px;
+    padding: 4px 10px;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.nav a:hover{
+    color:red;
+    text-decoration: underline ;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 2px 8.5px;
+}
